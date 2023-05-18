@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-color: blueviolet;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+    color: white;
+
+}
+main .flex {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+}
+li {
+    text-decoration: none;
+}
+main ul {
+    display: flex;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+}
+ul a:hover {
+    border-bottom: 1px solid white;
+}
+.second {
+    display: flex;
+    margin-top: 100px;
+    position: relative;
+}
+.deploy {
+    position: relative;
+}
+.form {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;    
+    width: 600px;
+    color: grey;
+    background-color: white;
+}
+#one {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+button {
+    border: 1px solid white;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    margin: 0;
+    padding: 12px;
+    width: 80px;
+}
+.deploy button {
+    width: 120px;
+    margin: 20px;
+    margin-left: 0;
+    padding: 15px 0;
+}
+.deploy button:hover {
+    transform: scale(0.9);
+}
+p {
+    line-height: 30px;
+}
+.form h2 {
+    padding-left: 15px;
+}
+.btn {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.btn:hover {    
+    border-color: blueviolet;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+.deploy {
+    animation: SlideInFromSide 1s ease-in;
+}
+.form {
+    animation: SlideInFromRight 1s ease-in;
+}
+@keyframes SlideInFromSide {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+@keyframes SlideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.showcase::before {
+    content: "";    
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: skewY(-3deg);
+    bottom: 260px;
+}
+.third {
+    background-color: white;
+    color: black;
+    padding-top: 110px;
+}
+.middle {
+    background-color: white;
+}
+.third p {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+.icons {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.server {
+    text-align: center;
+}
+.fourth {
+}
+img {
+    width: 500px;
+}
+div .fifeth {
+    
+    display: flex;
+}
+.back {
+    background-color: blueviolet;
+}
+.cloud {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
+.allicon img {
+    border: 1px solid black;
+}
+.server:hover {
+    cursor: pointer;
+    background-color: yellow;
+    transform: scale(0.8);
+    border-radius: 10px;
+}
+sixth {
+    color: black;
+}
+.sixth {
+    display: flex;
+    color: red;
+
+
+}
